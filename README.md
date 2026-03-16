@@ -16,26 +16,7 @@ India records over **4,50,000 road accidents annually**, making it one of the wo
 
 ---
 
-## Repository Structure
-
-```
-india_road_safety_dashboard/
-│
-├── India_Road_Safety_Dashboard.ipynb   ← Main analysis notebook
-│
-├── data/
-│   ├── morth_accidents.csv             ← National annual accident data (2015–2023)
-│   ├── statewise_accidents.csv         ← State-wise breakdown
-│   ├── monthly_motorcycle.csv          ← Monthly two-wheeler data (for ITS)
-│   └── cause_wise.csv                  ← Accident cause distribution
-│
-├── requirements.txt                    ← Python dependencies
-└── README.md
-```
-
----
-
-## 📊 Dashboard Sections
+##  Dashboard Sections
 
 | Section | Description |
 |---------|-------------|

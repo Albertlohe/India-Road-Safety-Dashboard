@@ -1,10 +1,10 @@
-# 🛣️ India Road Safety Dashboard
+#  India Road Safety Dashboard
 
 > **An end-to-end analytics project on India's road accident data (2015–2023) using MoRTH & NCRB datasets, with a focus on motorcycle safety and the AHO/DRL policy impact via Interrupted Time Series analysis.**
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 India records over **4,50,000 road accidents annually**, making it one of the worst road safety performers globally. This project builds an interactive analytical dashboard in Jupyter that:
 
@@ -13,11 +13,10 @@ India records over **4,50,000 road accidents annually**, making it one of the wo
 - Applies **Interrupted Time Series (ITS)** regression to evaluate the **April 2017 AHO (Always Headlights On) mandate**
 - Generates a comprehensive KPI summary dashboard
 
-This project is connected to the MTP thesis: *"Does Behavior Affect Road Safety? A Case Study of Motorcyclists in India"* at **IIT Kharagpur**.
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```
 india_road_safety_dashboard/
@@ -49,7 +48,7 @@ india_road_safety_dashboard/
 
 ---
 
-## 🔬 Methodology — Interrupted Time Series
+## Methodology — Interrupted Time Series
 
 **Policy Evaluated:** AHO/DRL mandate requiring all new two-wheelers to have automatic headlights on (April 2017).
 
@@ -81,7 +80,7 @@ Robust standard errors (HC3) used to handle heteroscedasticity.
 
 ---
 
-## ⚙️ Getting Started
+## Getting Started
 
 ### 1. Clone the repository
 ```bash
@@ -101,27 +100,27 @@ jupyter notebook India_Road_Safety_Dashboard.ipynb
 
 ---
 
-## 📈 Key Findings
+##  Key Findings
 
-- 🏍️ **Motorcycles account for ~35% of all road fatalities** — consistently the highest-risk vehicle category
-- 📉 **ITS model shows a statistically significant level drop** in motorcycle fatalities post-AHO mandate (April 2017)
-- 🦠 **COVID-19 caused a 28% drop in accidents in 2020** — but 2021–2023 shows a sharp rebound exceeding pre-pandemic levels
-- ⚠️ **Fatality rate (deaths per accident) is rising** despite absolute accident count declining — severity is worsening
-- 🛣️ **Over-speeding accounts for >60% of all accidents** year-on-year
-- 📍 **Bihar and Uttar Pradesh** have the highest fatality rates; **Kerala** consistently lowest (~11%)
+-  **Motorcycles account for ~35% of all road fatalities** — consistently the highest-risk vehicle category
+-  **ITS model shows a statistically significant level drop** in motorcycle fatalities post-AHO mandate (April 2017)
+-  **COVID-19 caused a 28% drop in accidents in 2020** — but 2021–2023 shows a sharp rebound exceeding pre-pandemic levels
+-  **Fatality rate (deaths per accident) is rising** despite absolute accident count declining — severity is worsening
+-  **Over-speeding accounts for >60% of all accidents** year-on-year
+-  **Bihar and Uttar Pradesh** have the highest fatality rates; **Kerala** consistently lowest (~11%)
 
 ---
 
-## 📁 Data Sources
+## Data Sources
 
 - [MoRTH Annual Reports](https://morth.nic.in/) — Ministry of Road Transport & Highways
 - [NCRB Accidental Deaths & Suicides in India](https://ncrb.gov.in/) — National Crime Records Bureau
 
-> ⚠️ **Note:** The CSV files in `/data/` are structured to mirror MoRTH Annual Report format. Replace with official downloaded data for production use.
+>  **Note:** The CSV files in `/data/` are structured to mirror MoRTH Annual Report format. Replace with official downloaded data for production use.
 
 ---
 
-## 👤 Author
+##  Author
 
 **Albertt**  
 M.Tech — Safety Engineering & Analytics  
@@ -129,6 +128,6 @@ Indian Institute of Technology, Kharagpur
 
 ---
 
-## 📄 License
+## License
 
 MIT License — free to use with attribution.

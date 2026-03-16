@@ -122,12 +122,8 @@ jupyter notebook India_Road_Safety_Dashboard.ipynb
 
 ##  Author
 
-**Albertt**  
+**Albert Lohe**  
 M.Tech — Safety Engineering & Analytics  
 Indian Institute of Technology, Kharagpur  
 
 ---
-
-## License
-
-MIT License — free to use with attribution.
